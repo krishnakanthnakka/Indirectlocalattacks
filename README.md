@@ -19,6 +19,6 @@ This repository is a PyTorch implementation of indirect local attacks for semant
 2. Adaptive attack a sample image on a pretrained model with  a given sparsity level 
 
      ```shell
-     sh scripts/adaptive_attack.sh cityscapes psanet50 0.75
+     sh scripts/adaptive_attack.sh cityscapes psanet50 1.jpg 0.75
      ```
 
