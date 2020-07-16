@@ -8,10 +8,17 @@ This repository is a PyTorch implementation of indirect local attacks for semant
 
 ### Usage
 
-1. Download the Cityscapes sampled dataset and pretrained public models
+1. Download the Cityscapes sampled  demo images and pretrained public models
 
      ```
      cd pretrained/
      bash download_dataset.sh
      bash download_pretrained_models.sh
      ```
+     
+2. Attack a sample image on a pretrained model
+
+     ```shell
+     sh scripts/adaptive_attack.sh cityscapes psanet50
+     ```
+
