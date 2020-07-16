@@ -8,9 +8,7 @@ This repository is a PyTorch implementation of indirect local attacks for semant
 
 ### Usage
 
-1. Download Pretrained models:
-
-   - Download the sampled dataset and pretrained models:
+1. Download the Cityscapes sampled dataset and pretrained public models
 
      ```
      cd pretrained/
