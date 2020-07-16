@@ -13,7 +13,7 @@ This repository is a PyTorch implementation of indirect local attacks for semant
    - Download the sampled dataset and pretrained models:
 
      ```
-     cd pretrained
+     cd pretrained/
      bash download_dataset.sh
      bash download_pretrained_models.sh
      ```
