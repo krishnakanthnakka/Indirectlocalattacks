@@ -16,7 +16,7 @@ This repository is a PyTorch implementation of indirect local attacks for semant
      bash download_pretrained_models.sh
      ```
      
-2. Adaptive attack a sample image on a pretrained model with  a given sparsity level. We have evluated attacks on 4 architecures -  fcn50, psanet50, pspnet50, danet50. 
+2. Adaptive attack a sample image on a pretrained model with  a given sparsity level. We have evaluated attacks on 4 architecures -  fcn50, psanet50, pspnet50, danet50. 
 
      ```shell
      sh scripts/adaptive_attack.sh cityscapes psanet50 1.jpg 0.75
