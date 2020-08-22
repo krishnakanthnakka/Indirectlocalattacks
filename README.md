@@ -15,6 +15,8 @@ This repository is a PyTorch implementation of indirect local attacks for semant
      bash download_dataset.sh
      bash download_pretrained_models.sh
      ```
+     
+### TO BE ADDED SOON
 
 2. Adaptive attack a sample image on a pretrained model with  a given sparsity level. We have evaluated attacks on 4 architecures -  fcn50, psanet50, pspnet50, danet50.
 
